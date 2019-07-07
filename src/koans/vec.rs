@@ -192,7 +192,7 @@ fn splitting() {
     assert_eq!(langs2, &["Python", "C++"]);
 }
 
-// Or if you don't know the specific index, you can supply a conditon at which to split
+// Or if you don't know the specific index, you can supply a condition at which to split
 // The new groups will not include the elements that match the condition
 #[test]
 fn more_splitting() {
